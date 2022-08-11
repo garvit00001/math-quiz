@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="game.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
@@ -17,22 +17,20 @@
 
 <div class="container">
 	<center>
-		<h2 style="color: white;">Maths Quiz</h2>
+		<h2 style="color: white;">Guess The Number!</h2>
 		<h3 id="player_question"></h3>
 		<h3 id="player_answer"></h3>
 		<div id="output" class="col-lg-6"> </div>
 		<br>
 		<br>
-		 <b style="color: red">Number 1
+		<label>Enter Your Number: <b style="color: red">Put your Number which has 2 digits.
 		</b>
-		
-		<input type="number" id="number1" class="form-control" placeholder="number">
+		</label>
+        <br>
+		<input type="text" id="number1" class="form-control" placeholder="Number">
 		<br>
-		<b style="color: red">Number 2
-		</b>
-		
-		<input type="number" id="number2" class="form-control" placeholder="number">
-		<br>
+		<input type="text" id="number2" class="form-control" placeholder="Number">
+        <br>
 		<button onclick="send()" class="btn btn-success" style="width: 30%;">Send</button>
 	</center>
 </div>
